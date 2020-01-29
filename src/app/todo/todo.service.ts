@@ -1,9 +1,5 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
-
 const TODOS = [
   { title: 'Install Angular CLI', isDone: true },
   { title: 'Style app', isDone: true },
